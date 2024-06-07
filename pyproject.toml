@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lucidtask-backend"
+version = "0.0.1"
+description = "A lucidtask for upwork job post"
+authors = ["Dinesh <dinezh4@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+sqlalchemy = "^2.0.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
