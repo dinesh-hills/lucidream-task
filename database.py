@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from models import Base, User
+from models import Base
 from config import DATABASE_URL
 
 
